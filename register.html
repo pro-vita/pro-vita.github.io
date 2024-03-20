@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronics test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <a href="./index.html"
+          ><img class="logo" src="logo.jpg" alt="logo"
+        /></a>
+        <a href="pc.html"><li>PC</li></a>
+        <a href="tablet.html"><li>Tablety</li></a>
+        <a href="mobil.html"><li>Mobily</li></a>
+        <a href="about.html"><li>O nás</li></a>
+        <a href="kontakt.html"><li>Kontakty</li></a>
+        <a href="pc.html"
+          ><img class="ad" src="ad.png" alt="ad" />
+        </a>
+        <div id="copy">&copy; pro-vita 2024</div>
+      </ul>
+    </nav>
+    <header>
+      <div class="login-js">
+      </div>
+      <form class="search" action="javascript:void(0);">
+        <input
+          class="input-search-js"
+          type="search"
+          placeholder="Vyhledávání..."
+        /><input type="submit" value="Hledat" />
+      </form>
+      <a href="shopping-cart.html"
+        ><div class="cart-number">
+          <img
+            class="cart"
+            src="shopping-cart.png"
+            alt="shopping-cart"
+          />
+          <p class="number">0</p>
+        </div>
+      </a>
+    </header>
+    <main>
+      <h1 class="registration-title">Registrace</h1>
+      <div class="registration-form">
+        <div class="submitError"></div>
+        <form class="registration">
+          <label for="username">Uživatelské jméno:</label>
+          <input id="username" type="text" />
+          <br />
+          <label for="name">Jméno:</label>
+          <input id="name" type="text" />
+          <br />
+          <label for="surname">Příjmení</label>
+          <input id="surname" type="text" />
+          <br />
+          <label for="password">Heslo:</label>
+          <input id="password" type="password" />
+          <br />
+          <label for="phone">Telefon:</label>
+          <input id="phone" type="text" />
+          <br />
+          <label for="email">Email:</label>
+          <input id="email" type="email" placeholder="jmeno@email.cz" />
+          <br />
+          <input class="register-btn-js" type="submit" value="Zaregistrovat" />
+        </form>
+      </div>
+    </main>
+    <p class="time"></p>
+    <script type="module" src="oop.js"></script>
+  </body>
+</html>

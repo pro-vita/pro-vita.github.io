@@ -1,0 +1,685 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background: grey;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 120px;
+  background: white;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+nav li {
+  text-align: left;
+  font-size: 18px;
+  padding: 10px 0px 10px 10px;
+}
+
+nav li:hover {
+  background: blue;
+  text-align: left;
+  font-size: 18px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.ad {
+  height: 310px;
+  width: 120px;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+}
+#copy {
+  position: absolute;
+  bottom: 0;
+}
+/* header */
+header {
+  background-color: blueviolet;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a:hover {
+  color: black;
+}
+
+.user {
+  margin-left: 141px;
+}
+
+.user-info {
+  margin-top: 40px;
+}
+
+.user-info tr {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+.user-info td {
+  width: 360px;
+  height: 60px;
+}
+
+.user input[type="text"] {
+  width: 162px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.user input[type="password"] {
+  width: 162px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.user input[type="submit"] {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.user input[type="submit"]:hover {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 3px solid rgb(58, 45, 45);
+}
+
+.user input[type="submit"]:active {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  cursor: pointer;
+  background: rgb(143, 143, 143);
+  border-radius: 5px;
+  border: 3px solid rgb(58, 45, 45);
+}
+
+.login-error {
+  color: rgb(193 173 173);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 141px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+
+.logged-user {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.sign-off-btn {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.sign-off-btn:hover {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 3px solid rgb(58, 45, 45);
+}
+
+.sign-off-btn:active {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  cursor: pointer;
+  background: rgb(143, 143, 143);
+  border-radius: 5px;
+  border: 3px solid rgb(58, 45, 45);
+}
+
+.register-p {
+  margin-top: 5px;
+  margin-left: 141px;
+  font-weight: bold;
+}
+
+.register-p a {
+  color: yellow;
+}
+.search {
+  text-align: center;
+  padding: 10px;
+  margin-right: 100px;
+}
+
+.search input[type="search"] {
+  width: 400px;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 5px;
+  margin: 0;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.search input[type="submit"] {
+  width: 80px;
+  height: 35px;
+  margin-left: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.search input[type="submit"]:hover {
+  width: 80px;
+  height: 35px;
+  margin-left: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 3px solid rgb(58, 45, 45);
+}
+
+.search input[type="submit"]:active {
+  width: 80px;
+  height: 35px;
+  margin-left: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  background: rgb(143, 143, 143);
+  border: 3px solid rgb(58, 45, 45);
+}
+
+.cart-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+
+.cart-number:hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  background: red;
+  color: black;
+}
+
+.cart-number:active {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  background: blueviolet;
+  color: black;
+}
+
+.number {
+  font-size: 35px;
+  color: black;
+}
+
+.number {
+  font-size: 35px;
+}
+
+.cart {
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+}
+/* main */
+main {
+  text-align: center;
+  margin-left: 120px;
+}
+
+main section {
+  text-align: left;
+}
+
+main img {
+  height: 140px;
+  width: 140px;
+  border-radius: 5px;
+}
+
+main .about {
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+/* Products */
+main .pc-product {
+  width: 680px;
+  height: 130px;
+  margin: 10px 10px 55px 10px;
+}
+
+.pc-product-cart {
+  width: 680px;
+  height: 130px;
+  margin: 0px 10px 55px -9px;
+}
+
+.row {
+  display: flex;
+}
+
+.description {
+  width: 510px;
+  height: 90px;
+  margin-left: 5px;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.description-p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.product-btn {
+  margin-left: 328px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid black;
+  border-radius: 30px;
+}
+
+.product-btn:hover {
+  margin-left: 328px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid rgb(94, 112, 21);
+  border-radius: 30px;
+}
+
+.product-btn:active {
+  margin-left: 328px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(rgb(141, 141, 144), rgb(230, 230, 230));
+  cursor: pointer;
+  border: 4px solid rgb(7, 233, 7);
+  border-radius: 30px;
+}
+
+.decrement {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.increment {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  margin-left: 328px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid black;
+  border-radius: 30px;
+}
+.delete-btn:hover {
+  margin-left: 328px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid rgb(94, 112, 21);
+  border-radius: 30px;
+}
+.delete-btn:active {
+  margin-left: 328px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(rgb(141, 141, 144), rgb(230, 230, 230));
+  cursor: pointer;
+  border: 4px solid rgb(7, 233, 7);
+  border-radius: 30px;
+}
+
+.quantity {
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logo-nahled {
+  height: 400px;
+  width: 400px;
+  margin-top: 40px;
+}
+
+/* Contacts */
+
+.kontakt {
+  width: 300px;
+  height: 300px;
+}
+
+.kontakt1 {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+.kontakt2 {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-bottom: 1px;
+}
+
+main p {
+  font-size: 25px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+table,
+tr,
+td {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 360px;
+  height: 60px;
+}
+
+/* Registration */
+.registration {
+  text-align: right;
+}
+
+.registration input {
+  width: 300px;
+  height: 55px;
+  margin: 10px 10px 10px 10px;
+  padding-left: 5px;
+  font-size: 30px;
+}
+
+.registration label {
+  font-size: 25px;
+}
+
+.registration input[type="submit"] {
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid black;
+}
+
+.registration input[type="submit"]:hover {
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid rgb(143, 29, 126);
+}
+
+.registration input[type="submit"]:active {
+  background: linear-gradient(rgb(141, 141, 144), rgb(230, 230, 230));
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid black;
+}
+
+.registration-form {
+  margin-top: 3px;
+  margin-right: 545px;
+}
+
+.hidden {
+  display: none;
+}
+
+.registration-title {
+  margin: 0;
+}
+
+.submitError {
+  width: 500px;
+  margin-left: 470px;
+  color: rgb(151, 25, 25);
+  font-size: 23px;
+  font-weight: bold;
+}
+/* Cart */
+main .cart-product {
+  width: 723px;
+  height: 595px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+main .cart-product h1 {
+  text-align: center;
+}
+
+.product-in-cart {
+  margin-bottom: 35px;
+}
+
+.shipping {
+  margin-top: 50px;
+  margin-right: 218px;
+  text-align: right;
+  padding: 50px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.total {
+  margin-top: 90px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.total p {
+  font-size: 30px;
+}
+
+.pay-btn {
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid black;
+  border-radius: 30px;
+}
+
+.pay-btn:hover {
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid rgb(94, 112, 21);
+  border-radius: 30px;
+}
+
+.pay-btn:active {
+  border-radius: 5px;
+  width: 120px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid rgb(7, 233, 7);
+  border-radius: 30px;
+}
+
+.pop-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  width: 600px;
+  height: 180px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  z-index: 1000; /* Ensure the pop-up is above the backdrop */
+  border-radius: 8px; /* Add rounded corners if desired */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.pop-up p {
+  font-size: 25px;
+}
+
+.back-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 160px;
+  height: 60px;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 17px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid black;
+  border-radius: 30px;
+}
+
+.back-home:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 160px;
+  height: 60px;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 17px;
+  background: linear-gradient(rgb(230, 230, 230), rgb(141, 141, 144));
+  cursor: pointer;
+  border: 4px solid rgb(94, 112, 21);
+  border-radius: 30px;
+}
+
+.back-home:active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 160px;
+  height: 60px;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 17px;
+  background: linear-gradient(rgb(141, 141, 144), rgb(230, 230, 230));
+  cursor: pointer;
+  border: 4px solid rgb(7, 233, 7);
+  border-radius: 30px;
+}
+
+.backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px); /* Adjust the blur strength as needed */
+  z-index: 999; /* Ensure the backdrop is above other elements */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the background color and transparency */
+}
+
+.time {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 12px;
+  font-size: 25px;
+}
