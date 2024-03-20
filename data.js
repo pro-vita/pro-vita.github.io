@@ -568,7 +568,7 @@ export class Data {
       });
     } else {
       // If no items in the cart, clear the content and display appropriate message
-      items.innerHTML = "<p>Váš nákupní košík je prázdný</p>";
+      items.innerHTML = "<h1>Váš nákupní košík je prázdný</h1>";
       number.textContent = 0;
       totalPrice.textContent = `Doprava: 0Kč Celkem: 0Kč`;
     }
