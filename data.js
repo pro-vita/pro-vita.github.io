@@ -1,14 +1,14 @@
 "use strict";
 const _data = [
   {
-    img: "../images/hall3000.jpg",
+    img: "hall3000.jpg",
     title: "HALL3000 PRO MAX",
     about: "Nejvýkonnější počítač našeho výběru.",
     price: 50000,
     id: 0,
   },
   {
-    img: "../images/notebook.jpg",
+    img: "notebook.jpg",
     title: "BOOK PRO",
     about: "Vhodný notebook pro práci v kanceláři.",
     price: 25000,
@@ -16,28 +16,28 @@ const _data = [
   },
 
   {
-    img: "../images/hall3001.jpg",
+    img: "hall3001.jpg",
     title: "HALL3000 SEMI-PRO",
     about: "'Lehčí' verze PRO MAX.",
     price: 45200,
     id: 2,
   },
   {
-    img: "../images/notebook1.jpg",
+    img: "notebook1.jpg",
     title: "BOOK SEMI-PRO",
     about: "Vhodný notebook pro práci v kanceláři.",
     price: 22000,
     id: 3,
   },
   {
-    img: "../images/hall3002.jpg",
+    img: "hall3002.jpg",
     title: "HALL3000 PRO LIGHT",
     about: "'PC pro méně náročné uživatele', ale zvládne toho dost i tak!",
     price: 38500,
     id: 4,
   },
   {
-    img: "../images/notebook2.jpg",
+    img: "notebook2.jpg",
     title: "BOOK 3",
     about: "Vhodný notebook pro práci v kanceláři.",
     price: 18000,
@@ -45,84 +45,84 @@ const _data = [
   },
 
   {
-    img: "../images/double1.jpg",
+    img: "double1.jpg",
     title: "PAD PRO X",
     about: "Nejlepší tablet který tady máme.",
     price: 22600,
     id: 6,
   },
   {
-    img: "../images/double1.jpg",
+    img: "double1.jpg",
     title: "PAD PRO L",
     about: "Osekaná verze nejlepšího tabletu.",
     price: 20800,
     id: 7,
   },
   {
-    img: "../images/double2.jpg",
+    img: "double2.jpg",
     title: "PAD SPORT EXTREME",
     about: "Tablet pro extrémní sportovce.",
     price: 17400,
     id: 8,
   },
   {
-    img: "../images/double2.jpg",
+    img: "double2.jpg",
     title: "PAD SPORT SPEED",
     about: "Tablet pro méně extrémní sportovce.",
     price: 15300,
     id: 9,
   },
   {
-    img: "../images/tablet.jpg",
+    img: "tablet.jpg",
     title: "PAD O",
     about: "Tablet s rodičovským zámkem.",
     price: 13800,
     id: 10,
   },
   {
-    img: "../images/tablet1.jpg",
+    img: "tablet1.jpg",
     title: "PAD L",
     about: "Vhodný tablet pro práci v kanceláři.",
     price: 12100,
     id: 11,
   },
   {
-    img: "../images/double11.jpg",
+    img: "double11.jpg",
     title: "PHONE X",
     about: "Mistr mezi mobily a také oblíbenec mezi zákazníky.",
     price: 35000,
     id: 12,
   },
   {
-    img: "../images/double11.jpg",
+    img: "double11.jpg",
     title: "PHONE Y",
     about: "Elegantní mobil pro každodenní použití.",
     price: 32000,
     id: 13,
   },
   {
-    img: "../images/double22.jpg",
+    img: "double22.jpg",
     title: "MEDIUM",
     about: "Mobil středního výkonu, který si oblíbí každý.",
     price: 26000,
     id: 14,
   },
   {
-    img: "../images/double22.jpg",
+    img: "double22.jpg",
     title: "MEDIUM L",
     about: "Verze Medium s rodičovským zámkem.",
     price: 24000,
     id: 15,
   },
   {
-    img: "../images/phone.jpg",
+    img: "phone.jpg",
     title: "BLUE",
     about: "Pro podnikatele jedině BLUE!!!",
     price: 20000,
     id: 16,
   },
   {
-    img: "../images/phone1.jpg",
+    img: "phone1.jpg",
     title: "ORANGE",
     about: "Pro nenáročné uživatele, kteří stále mají rádi luxus.",
     price: 18000,
@@ -130,7 +130,6 @@ const _data = [
   },
 ];
 const _cartData = [];
-
 export class Data {
   constructor() {
     this._cartData = this._getItems();
